@@ -1,5 +1,5 @@
 {
-    "name": "tcg/voyager",
+    "name": "gabrieltakacs/voyager",
     "description": "A Laravel Admin Package for The Control Group to make your life easier and steer your project in the right direction",
     "keywords": ["laravel", "admin", "panel"],
     "license": "MIT",
@@ -10,6 +10,9 @@
     },
     "authors": [
         {
+            "name": "Gabriel Takács",
+            "email": "gtakacs@gtakacs.sk"
+        }, {
             "name": "Tony Lea",
             "email": "tony.lea@thecontrolgroup.com"
         }
