@@ -5,13 +5,13 @@
 
 namespace TCG\Voyager\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\Controller as BaseController;
 use Illuminate\Routing\ControllerDispatcher;
 use Illuminate\Routing\Route;
 use TCG\Exceptions\InvalidActionException;
 use TCG\Voyager\Models\Page;
 
-class DynamicRouteController extends Controller
+class DynamicRouteController extends BaseController
 {
     public function handle($slug)
     {
